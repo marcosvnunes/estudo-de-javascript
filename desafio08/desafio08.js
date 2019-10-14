@@ -68,7 +68,7 @@ function calculator(operator){
             case '%': result = a % b;break;
             default:return 'Operação inválida';
         } 
-        return 'Resultado da operação :'+a+' '+operator+' '+b+' = '+resultado;
+        return 'Resultado da operação :'+a+' '+operator+' '+b+' = '+result;
 
     }
 }
