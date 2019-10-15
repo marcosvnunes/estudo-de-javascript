@@ -13,7 +13,7 @@
 
     do{
         console.log('Entrou ao menos uma vez!'); // Entrou ao menos uma vez!
-    }while(once === true);
+    }while(once);
 
     /*
     Crie um objeto chamado `person`, que receba as seguintes propriedades:
