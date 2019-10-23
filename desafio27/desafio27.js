@@ -114,7 +114,7 @@ console.log(DOM.prototype.isNull(1));
 // codigo para verificar tipo refatorado por Marcos Nnunes 
 
 DOM.prototype.isObjectType = function isObjectType(param){
-    var types = ['Null','Array','Object','Function','Number','String',
+    var types = ['Array','Object','Function','Number','String',
     'Boolean','Null','Undefined'];
 
     var valueActual;
