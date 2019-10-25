@@ -95,6 +95,8 @@ DOM.prototype.isBoolean = function isBoolean(param){
     return Object.prototype.toString.call(param) === '[object Boolean]';
 };
 
+
+
 DOM.prototype.isNull = function isNull(param){
     return Object.prototype.toString.call(param) === '[object Null]' || 
     Object.prototype.toString.call(param) === '[object Undefined]';
